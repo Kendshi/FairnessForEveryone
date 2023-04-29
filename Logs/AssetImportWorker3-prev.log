@@ -1,0 +1,373 @@
+Using pre-set license
+Built from '2022.1/staging' branch; Version is '2022.1.24f1 (709dddfb713f) revision 7380445'; Using compiler version '192829333'; Build Type 'Release'
+OS: 'Windows 10  (10.0.19044) 64bit Professional' Language: 'ru' Physical Memory: 16292 MB
+BatchMode: 1, IsHumanControllingUs: 0, StartBugReporterOnCrash: 0, Is64bit: 1, IsPro: 1
+
+COMMAND LINE ARGUMENTS:
+D:\Program Files\Unity 2022.1.24f1\Editor\Unity.exe
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker3
+-projectPath
+D:/Unity/EconomicGame
+-logFile
+Logs/AssetImportWorker3.log
+-srvPort
+59631
+Successfully changed project path to: D:/Unity/EconomicGame
+D:/Unity/EconomicGame
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Refreshing native plugins compatible for Editor in 123.92 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2022.1.24f1 (709dddfb713f)
+[Subsystems] Discovering subsystems at path D:/Program Files/Unity 2022.1.24f1/Editor/Data/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path D:/Unity/EconomicGame/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+Direct3D:
+    Version:  Direct3D 11.0 [level 11.1]
+    Renderer: NVIDIA GeForce RTX 2060 SUPER (ID=0x1f06)
+    Vendor:   NVIDIA
+    VRAM:     8019 MB
+    Driver:   31.0.15.2824
+Initialize mono
+Mono path[0] = 'D:/Program Files/Unity 2022.1.24f1/Editor/Data/Managed'
+Mono path[1] = 'D:/Program Files/Unity 2022.1.24f1/Editor/Data/MonoBleedingEdge/lib/mono/unityjit-win32'
+Mono config path = 'D:/Program Files/Unity 2022.1.24f1/Editor/Data/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56948
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: D:/Program Files/Unity 2022.1.24f1/Editor/Data/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
+Registered in 0.002549 seconds.
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 136.03 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.706 seconds
+Domain Reload Profiling:
+	ReloadAssembly (707ms)
+		BeginReloadAssembly (81ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (528ms)
+			LoadAssemblies (80ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (112ms)
+				TypeCache.Initialize (111ms)
+					TypeCache.ScanAssembly (110ms)
+				ResolveRequiredComponents (0ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (332ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (7ms)
+				SetLoadedEditorAssemblies (8ms)
+				RefreshPlugins (136ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (135ms)
+				ProcessInitializeOnLoadMethodAttributes (45ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.008256 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image D:\Unity\EconomicGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\YamlDotNet\Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image D:\Unity\EconomicGame\Library\PackageCache\com.unity.visualscripting@1.7.8\Editor\VisualScripting.Core\Dependencies\DotNetZip\Unity.VisualScripting.IonicZip.dll
+Native extension for WindowsStandalone target not found
+Refreshing native plugins compatible for Editor in 139.66 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  7.858 seconds
+Domain Reload Profiling:
+	ReloadAssembly (7859ms)
+		BeginReloadAssembly (149ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (6ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (7507ms)
+			LoadAssemblies (4733ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (858ms)
+				TypeCache.Initialize (847ms)
+					TypeCache.ScanAssembly (842ms)
+				ResolveRequiredComponents (12ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (75ms)
+			SetupLoadedEditorAssemblies (1809ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (4ms)
+				SetLoadedEditorAssemblies (7ms)
+				RefreshPlugins (140ms)
+				BeforeProcessingInitializeOnLoad (129ms)
+				ProcessInitializeOnLoadAttributes (395ms)
+				ProcessInitializeOnLoadMethodAttributes (1132ms)
+				AfterProcessingInitializeOnLoad (3ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (6ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launched and connected shader compiler UnityShaderCompiler.exe after 0.10 seconds
+Refreshing native plugins compatible for Editor in 1.10 ms, found 4 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 5562 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 40 unused Assets / (348.8 KB). Loaded Objects now: 6017.
+Memory consumption went from 0.86 GB to 0.86 GB.
+Total: 4.900700 ms (FindLiveObjects: 0.537600 ms CreateObjectMapping: 0.291700 ms MarkObjects: 3.877900 ms  DeleteObjects: 0.192400 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1126066.804061 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/LightShadow_pipo.png
+  artifactKey: Guid(a7034a2309f76cc46af68359dedd3b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/LightShadow_pipo.png using Guid(a7034a2309f76cc46af68359dedd3b34) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8874b95b7b2bd22ba1d14b058b61d0ab') in 0.109180 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 16.821103 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Dirt1-Dirt3_pipo.png
+  artifactKey: Guid(d07b38165f9692442989141cf03ddd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Dirt1-Dirt3_pipo.png using Guid(d07b38165f9692442989141cf03ddd68) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9354260a53ad5cd3861d95dcd64855c6') in 0.020376 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass1-Grass2_pipo.png
+  artifactKey: Guid(b947b244a1d359b4994f216364fe177e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass1-Grass2_pipo.png using Guid(b947b244a1d359b4994f216364fe177e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6fb2bccd59c447f5a79ec44f95ed8c99') in 0.018916 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Water1_pipo.png
+  artifactKey: Guid(d548329ae0e10ad4d9cf62a3b89bd2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Water1_pipo.png using Guid(d548329ae0e10ad4d9cf62a3b89bd2f9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de7b0ce4bc45e8e270283485c258ab88') in 0.023138 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass1_pipo.png
+  artifactKey: Guid(ec25d3d93a32be8498ccbc219109ad8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass1_pipo.png using Guid(ec25d3d93a32be8498ccbc219109ad8b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57cd71958fd9fb419ec809196e9c0d2c') in 0.018350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Dirt3_pipo.png
+  artifactKey: Guid(9c00dcb6691500242bdddb3360a813a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Dirt3_pipo.png using Guid(9c00dcb6691500242bdddb3360a813a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1992544c912affcd5fb5f95e80f0964c') in 0.018280 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Flower_pipo.png
+  artifactKey: Guid(01038d1cd8f71f8459c2aa5db33fc456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Flower_pipo.png using Guid(01038d1cd8f71f8459c2aa5db33fc456) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c5e2ca3a12c2bbb9cf7af52dc49af3f') in 0.016131 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Dirt1-Dirt4_pipo.png
+  artifactKey: Guid(8e56a97e49d7e2942993b345170b77a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Dirt1-Dirt4_pipo.png using Guid(8e56a97e49d7e2942993b345170b77a2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b85eab9e21e007a82c1d534840ebcee5') in 0.018424 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Water3_pipo.png
+  artifactKey: Guid(c9a5dbb1c3a69904481664b7f50550dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Water3_pipo.png using Guid(c9a5dbb1c3a69904481664b7f50550dc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6b978789cce48d41a60453ec1fe31c48') in 0.018857 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass1-Dirt1_pipo.png
+  artifactKey: Guid(89cf88c1d9432564b93c960f8b595b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass1-Dirt1_pipo.png using Guid(89cf88c1d9432564b93c960f8b595b00) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '26831afba3a0c5767b57ad8658cea7b6') in 0.018775 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass1-Grass4_pipo.png
+  artifactKey: Guid(24d4aa3eac0caa844a0f3836dbb162fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass1-Grass4_pipo.png using Guid(24d4aa3eac0caa844a0f3836dbb162fc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'efeb6aa1098804f9fc5fce95f4f474d1') in 0.018697 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Water4_pipo.png
+  artifactKey: Guid(d07ff63d41cbc094ea7a261633947314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Water4_pipo.png using Guid(d07ff63d41cbc094ea7a261633947314) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87df56c6933136aded90c0823dc40c41') in 0.020807 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Dirt2_pipo.png
+  artifactKey: Guid(56f319d9736dea3419a00e005469cd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Dirt2_pipo.png using Guid(56f319d9736dea3419a00e005469cd64) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e066c54d188087903145a1bcb9695af7') in 0.017185 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000031 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass1-Dirt3_pipo.png
+  artifactKey: Guid(5e0f2af77c831604f982274d461276d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass1-Dirt3_pipo.png using Guid(5e0f2af77c831604f982274d461276d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'db8649bedd4dba37b070cfd9a900b8b9') in 0.017578 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass2_pipo.png
+  artifactKey: Guid(df603cdf43a20a34f8872aee63a2ad76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass2_pipo.png using Guid(df603cdf43a20a34f8872aee63a2ad76) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd096563a6697c9a563e6776a6745c4c6') in 0.019295 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass4_pipo.png
+  artifactKey: Guid(363d83be94d062346acb89836a3c8c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass4_pipo.png using Guid(363d83be94d062346acb89836a3c8c38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bc6b09353921ab638996d4c3b60b6c34') in 0.018641 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]WaterFall2_pipo.png
+  artifactKey: Guid(ff10e0b289d406049b29f48a42441fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]WaterFall2_pipo.png using Guid(ff10e0b289d406049b29f48a42441fb7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f07b25e2383aa6c69f9ab52122c44d8e') in 0.028063 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass1-Grass3_pipo.png
+  artifactKey: Guid(4b93e2d830db8df4b984af7d9604a03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/[A]Grass1-Grass3_pipo.png using Guid(4b93e2d830db8df4b984af7d9604a03d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34085101b82070bd82bc2833a6daa4c0') in 0.016118 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 6.022447 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/not_animation/[A]Water3_Cave1_pipo.png
+  artifactKey: Guid(498b40feaaebbf440b52c547dca2f853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/not_animation/[A]Water3_Cave1_pipo.png using Guid(498b40feaaebbf440b52c547dca2f853) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '138ba091c8c6673fbdbcfc5c0b845422') in 0.041654 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/not_animation/[A]WaterFall3_pipo.png
+  artifactKey: Guid(e68c26840a4575e488f2ea77a9b4267b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/not_animation/[A]WaterFall3_pipo.png using Guid(e68c26840a4575e488f2ea77a9b4267b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9f1bd87145e7bd6671b9a0cca9b8e06') in 0.018427 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/not_animation/[A]Water3_pipo.png
+  artifactKey: Guid(641ca163d7884c34ab1b6aa21c5dad51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/not_animation/[A]Water3_pipo.png using Guid(641ca163d7884c34ab1b6aa21c5dad51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8c103c3cc79156ea52a45972a9721d50') in 0.015966 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/not_animation/[A]Water6_pipo.png
+  artifactKey: Guid(0f0c3ce87c2ac6f44a328f93cd2b4d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/not_animation/[A]Water6_pipo.png using Guid(0f0c3ce87c2ac6f44a328f93cd2b4d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7632a0a0d97b7a8c5b0e9fa2937167c7') in 0.016299 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/not_animation/[A]WaterFall1_pipo.png
+  artifactKey: Guid(e2e653baf53a3a0419088fb44b09fd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/[A]_type1/not_animation/[A]WaterFall1_pipo.png using Guid(e2e653baf53a3a0419088fb44b09fd44) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cf1d84087be64bc0beb3d553769a0645') in 0.017646 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 38.162467 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG World Tileset 48x48 40x40 32x32 for Tiled1/48x48/pipo-map001_at - ГRГsБ[.png
+  artifactKey: Guid(75d9c19991308e640a44acb867048192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG World Tileset 48x48 40x40 32x32 for Tiled1/48x48/pipo-map001_at - ГRГsБ[.png using Guid(75d9c19991308e640a44acb867048192) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '745fb8d9401a7e3f00a32bbffad326c0') in 0.101880 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 19.838497 seconds.
+  path: Assets/!Assets/Sprites/TilesetGrass/overworld_tileset_grass.png
+  artifactKey: Guid(f32b9243e9c71e2429969f70adbfabc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/TilesetGrass/overworld_tileset_grass.png using Guid(f32b9243e9c71e2429969f70adbfabc8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9ffc44e1696e96037e5cce4f72c6116e') in 0.066224 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 42.010020 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG World Tileset 48x48 40x40 32x32/48x48/[A]_type3/pipo-map001_at-mori.png
+  artifactKey: Guid(c8333e1a661446f488183ca8be1cc414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG World Tileset 48x48 40x40 32x32/48x48/[A]_type3/pipo-map001_at-mori.png using Guid(c8333e1a661446f488183ca8be1cc414) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75d85299e30bee98a064e16f4dfbd715') in 0.027400 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000026 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG World Tileset 48x48 40x40 32x32/48x48/[A]_type3/pipo-map001_at-sabaku.png
+  artifactKey: Guid(2d4b8c41d0923644fa2faf5230c16c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG World Tileset 48x48 40x40 32x32/48x48/[A]_type3/pipo-map001_at-sabaku.png using Guid(2d4b8c41d0923644fa2faf5230c16c8f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e00d0ce118ab084ac1650cd687c3fe89') in 0.026498 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG World Tileset 48x48 40x40 32x32/48x48/[A]_type3/pipo-map001_at-tuti.png
+  artifactKey: Guid(cb8e2d75d3fe38d46901e44fe5d6446e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG World Tileset 48x48 40x40 32x32/48x48/[A]_type3/pipo-map001_at-tuti.png using Guid(cb8e2d75d3fe38d46901e44fe5d6446e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55109fede987c17b8f23661faf6deaf0') in 0.027437 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 44.842731 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/SampleMap/[A]Grass_pipo.png
+  artifactKey: Guid(dcb415674251f10449de2234314d313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/SampleMap/[A]Grass_pipo.png using Guid(dcb415674251f10449de2234314d313a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '69b8d05575f0d1f84742fd036c164d16') in 0.067686 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000046 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/SampleMap/[A]WaterFall_pipo.png
+  artifactKey: Guid(5795671aeab137e43acfac92810876b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/SampleMap/[A]WaterFall_pipo.png using Guid(5795671aeab137e43acfac92810876b5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d2b666f41f2cd1008ee6f69f00a9868') in 0.064369 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/SampleMap/samplemap.png
+  artifactKey: Guid(4e8ee635f9dc0a8408f929af3476f644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG Tileset 32x32/SampleMap/samplemap.png using Guid(4e8ee635f9dc0a8408f929af3476f644) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87431a3dd4d1767a26efeb2601117f90') in 0.265169 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 35.703864 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG World Tileset 48x48 40x40 32x32/32x32/[A]_type1/pipo-map001_at-mori.png
+  artifactKey: Guid(373d6a5d5c07ce140881570f44cf0077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG World Tileset 48x48 40x40 32x32/32x32/[A]_type1/pipo-map001_at-mori.png using Guid(373d6a5d5c07ce140881570f44cf0077) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ace6b0fae2bf6615509c267948bd81a2') in 0.043283 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000062 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG World Tileset 48x48 40x40 32x32/32x32/[A]_type1/pipo-map001_at-sabaku.png
+  artifactKey: Guid(2572c4504f53d9d48ad3629cc30b1280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG World Tileset 48x48 40x40 32x32/32x32/[A]_type1/pipo-map001_at-sabaku.png using Guid(2572c4504f53d9d48ad3629cc30b1280) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a50563eab8b4f22c23d2851c8a1833b') in 0.018189 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000035 seconds.
+  path: Assets/!Assets/Sprites/Pipoya RPG World Tileset 48x48 40x40 32x32/32x32/[A]_type1/pipo-map001_at-tuti.png
+  artifactKey: Guid(593b0489142ee3748b3d34b811327e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/!Assets/Sprites/Pipoya RPG World Tileset 48x48 40x40 32x32/32x32/[A]_type1/pipo-map001_at-tuti.png using Guid(593b0489142ee3748b3d34b811327e15) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b5f94d947e8cda18b2365bb8e3272a5b') in 0.015857 seconds 
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
